@@ -31,29 +31,26 @@
 <form method="post" action="editdata.php" role="form">
 	<div class="modal-body">
 		<div class="form-group">
-			<label for="name">ID
-				<input type="text" id="id" name="id" value="<?php echo $mem['sn'];?>" readonly="true"/>
-			</label>
+			<label for="id">ID</label>
+			<input type="text" class="form-control" id="id" name="id" value="<?php echo $mem['sn'];?>" readonly="true"/>
+
 		</div>
 		<div class="form-group">
-			<label for="name">Name
-				<input type="text" id="name" name="name" value="<?php echo $mem['name'];?>" />
-			</label>
+			<label for="name">Name</label>
+			<input type="text" class="form-control" id="name" name="name" value="<?php echo $mem['name'];?>" />
 		</div>
 		<div class="form-group">
-			<label>Phone
-				<input type="text" id="job" name="phone" value="<?php echo $mem['phone'];?>" />
-			</label>
+			<label for="phone">Phone</label>
+				<input type="text" class="form-control" id="phone" name="phone" value="<?php echo $mem['phone'];?>" />
 		</div>
 		<div class="form-group">
-			<label>Address
-				<input type="text" id="service" name="address" value="<?php echo $mem['address'];?>" />
-			</label>
+			<label for="address">Address</label>
+			<input type="text" class="form-control" id="address" name="address" value="<?php echo $mem['address'];?>" />
+
 		</div>
 		<div class="form-group">
-			<label>Email
-				<input type="text" id="education" name="email" value="<?php echo $mem['email'];?>" />
-			</label>
+      <label for="email">Email</label>
+			<input type="text" class="form-control" id="email" name="email" value="<?php echo $mem['email'];?>" />
 		</div>
 		</div>
 		<div class="modal-footer">
